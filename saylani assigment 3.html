@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment 3</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            margin: 0px;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-group{
+            margin-bottom: 20px;
+        }
+
+        label{
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input, textarea{
+            
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        button:hover{
+            background-color: #218838;
+        }
+
+        .social-icons{
+            text-align: center;
+            padding: 20px;
+        }
+
+        .social-icons a{
+            display: inline-block;
+            color: black;
+            margin:  10px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .social-icons a:hover{
+            background-color: #007bff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Contact us</h2>
+
+        <form action="post">
+
+            <div class="form-group">
+                <label for="Name">Full Name</label>
+                <input type="Name" id="Name">
+            </div>
+
+            <div class="form-group">
+                <label for="Full Email">Email</label>
+                <input type="Full Email" id="Full Name">
+            </div>
+
+            <div class="form-group">
+                <label for="Full Message">Message</label>
+                <textarea name="Full Message" id="Full Message" rows="5"></textarea>
+            </div>
+
+            <button>Submit</button>
+
+            <div class="social-icons">
+                <h2>Follow us</h2>
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://Instagram.com" target="_blank">Instagram</a>
+                <a href="https://Upwork.com" target="_blank">Upwork</a>
+
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
